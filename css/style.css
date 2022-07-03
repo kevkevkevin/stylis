@@ -436,12 +436,12 @@ blockquote cite:before {
     color: #cfc401;
 }
 .navbar .navbar-nav .nav-link {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 15px;
     font-weight: 300;
     color: #fff;
     text-transform: uppercase;
-    letter-spacing: 4px;
+   /*  letter-spacing: 4px; */
     margin: 5px 5px;
     -webkit-transition: all .4s;
     transition: all .4s;
