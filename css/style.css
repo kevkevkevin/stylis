@@ -1,60 +1,10 @@
-/* -----------------------------------------------------------------------------------
-
- 01. Google fonts
- 02. Basics style
- 03. Helper style - [NEW] 
- 04. Selection style 
- 05. Owl-Theme custom style
- 06. Section style
- 07. Navbar style
- 08. Header style
- 09. Slider style
- 10. Slider Left Panel style
- 11. Page Banner Header style
- 12. Content Lines style
- 13. Video Background - [NEW] 
- 14. About style 
- 15. Team style
- 16. Team Details style
- 17. Careers style - [NEW] 
- 18. Services style
- 19. Services2 style - [NEW]
- 20. Services3 style - [NEW]
- 21. Services4 style - [NEW]
- 22. Projects style
- 23. Projects2 (masonry) style
- 24. Projects3 style
- 25. Projects4 style
- 26. Project Gallery style
- 27. Project Page style - [NEW]  
- 28. Clients style
- 29. Gallery style
- 30. Promo Video and Testimonials style
- 31. Blog 1 style
- 32. Blog 2 style
- 33. Blog 3 style
- 34. Blog 4 style - [NEW]  
- 35. Post style
- 36. Contact style
- 37. Buttons style
- 38. Footer style
- 39. Corner style
- 40. Preloader style
- 41. toTop Button style
- 42. Accordion Box (for Faqs) style
- 43. Pricing plan style
- 44. Error Page - 404 style
- 45. Process style
- 46. Process 2 style - [NEW] 
- 47. Comming soon style
- 48. Overlay Effect Bg image style - [NEW]
- 49. Responsive (Media Query)
- 
------------------------------------------------------------------------------------ */
 
 
-/* ======= Google fonts (Oswald & Didact Gothic) ======= */
-@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/* ======= Google fonts (Titillium Web & Didact Gothic) ======= */
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Titillium Web:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium Web:200,300,300i,400,400i,600,600i,700,700i,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
 
 /* ======= Basic style ======= */
@@ -75,7 +25,7 @@ body {
     word-wrap: break-word;
 }
 body {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.75em;
@@ -84,7 +34,7 @@ body {
     background: #272727;
 }
 p {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.75em;
@@ -97,7 +47,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Titillium Web", sans-serif;
     font-weight: 400;
     line-height: 1.25em;
     margin: 0 0 20px 0;
@@ -129,7 +79,7 @@ input,
 optgroup,
 select,
 textarea {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 input[type="password"]:focus,
 input[type="email"]:focus,
@@ -214,7 +164,7 @@ input[type="checkbox"] {
 /* submit and alert success  */
 input[type="submit"] {
     font-weight: 300;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     text-transform: uppercase;
     background: #cfc401;
     color: #fff;
@@ -446,12 +396,11 @@ blockquote cite:before {
 }
 .section-title {
     font-size: 40px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
     color: #fff;
     text-transform: uppercase;
     position: relative;
-    letter-spacing: 10px;
     word-spacing: 5px;
     margin-bottom: 30px;
 }
@@ -487,7 +436,7 @@ blockquote cite:before {
     color: #cfc401;
 }
 .navbar .navbar-nav .nav-link {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 15px;
     font-weight: 300;
     color: #fff;
@@ -542,7 +491,7 @@ blockquote cite:before {
     margin-bottom: 0px;
 }
 .nav-scroll .logo-wrapper .logo h2 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 40px;
     font-weight: 400;
     margin-bottom: 0px;
@@ -556,7 +505,7 @@ blockquote cite:before {
 }
 .nav-scroll .logo-wrapper .logo span {
     display: block;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 13px;
     color: #575757;
     font-weight: 400;
@@ -578,7 +527,7 @@ blockquote cite:before {
     padding: 30px 50px;
 }
 .logo-wrapper .logo h2 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 45px;
     font-weight: 400;
     display: block;
@@ -595,7 +544,7 @@ blockquote cite:before {
 }
 .logo-wrapper .logo span {
     display: block;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 12px;
     color: #999;
     font-weight: 400;
@@ -782,7 +731,7 @@ blockquote cite:before {
     font-size: 30px;
 }
 .header .caption h4 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
@@ -796,7 +745,7 @@ blockquote cite:before {
 .header .caption h1 {
     position: relative;
     margin-bottom: 20px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 48px;
     text-transform: uppercase;
     line-height: 1.35em;
@@ -804,7 +753,6 @@ blockquote cite:before {
     animation-delay: .4s;
     color: #fff;
     font-weight: 400;
-    letter-spacing: 15px;
 }
 .header .caption p {
     font-size: 18px;
@@ -1011,13 +959,13 @@ blockquote cite:before {
 .banner-header h5 {
     color: #cfc401;
     font-size: 17px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
     margin-bottom: 5px;
 }
 .banner-header h1 {
     font-size: 40px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
     color: #cfc401;
     position: relative;
@@ -1140,7 +1088,7 @@ blockquote cite:before {
 .video-fullscreen-wrap .video-fullscreen-inner h1 {
     position: relative;
     margin-bottom: 20px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 48px;
     text-transform: uppercase;
     line-height: 1.35em;
@@ -1222,7 +1170,7 @@ blockquote cite:before {
     padding: 20px 15px;
     color: #fff;
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-weight: 300;
     letter-spacing: 5px;
     font-size: 13px;
@@ -1425,7 +1373,7 @@ blockquote cite:before {
     height: 100%
 }
 .position-title {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 3px;
@@ -1568,7 +1516,7 @@ blockquote cite:before {
 .services .item .numb {
     font-size: 40px;
     font-weight: 600;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     position: absolute;
     bottom: 30px;
     right: 30px;
@@ -1674,7 +1622,7 @@ blockquote cite:before {
 }
 .services2 .services2-subtitle {
     color: #cfc401;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 13px;
     font-weight: 300;
     letter-spacing: 5px;
@@ -1758,7 +1706,7 @@ blockquote cite:before {
     transition: transform .2s ease-in-out
 }
 .services3-heading {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 16px;
     color: #fff;
     text-transform: uppercase;
@@ -2012,7 +1960,7 @@ blockquote cite:before {
 .sidebar-title h4 {
     position: relative;
     display: inline-block;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
     line-height: 1.1em;
     color: #fff;
@@ -2317,7 +2265,7 @@ blockquote cite:before {
     font-weight: 300;
     letter-spacing: 5px;
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 @media only screen and (max-width: 991px) {
   .project-masonry-wrapper .project-masonry-item-content {
@@ -2399,7 +2347,7 @@ blockquote cite:before {
     transform: scale(0.95, 0.95);
 }
 .bauen-project-wrap h3 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
     line-height: 1.25em;
     font-weight: 300;
@@ -2410,7 +2358,7 @@ blockquote cite:before {
 }
 .bauen-project-wrap p {
     color: #cfc401;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 13px;
     font-weight: 300;
     letter-spacing: 5px;
@@ -2555,7 +2503,7 @@ blockquote cite:before {
 }
 .projects4 .caption h6 {
     color: #cfc401;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 13px;
     font-weight: 300;
     letter-spacing: 5px;
@@ -2683,7 +2631,7 @@ blockquote cite:before {
     font-weight: 300;
     letter-spacing: 5px;
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 @media only screen and (max-width: 991px) {
   .gallery-masonry-wrapper .gallery-masonry-item-content {
@@ -3129,7 +3077,7 @@ button.mfp-arrow {
 .bauen-blog .item .con h5 a {
     color: #cfc401;
     font-size: 25px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-weight: 300;
     margin-bottom: 0px;
     letter-spacing: 1px;
@@ -3460,7 +3408,7 @@ button.mfp-arrow {
     color: #999;
     font-weight: 300;
     border: 1px solid #323232;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 13px;
     border-radius: 100%;
 }
@@ -3612,7 +3560,7 @@ hr.border-2 {
     position: relative;
     padding-bottom: 2px;
     margin-bottom: -2px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 300;
@@ -3705,7 +3653,7 @@ hr.border-2 {
 }
 .butn-dark a {
     font-weight: 300;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     text-transform: uppercase;
     background: #cfc401;
     color: #fff;
@@ -3748,7 +3696,7 @@ hr.border-2 {
 }
 .butn-light a {
     font-weight: 300;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     text-transform: uppercase;
     background: transparent;
     color: #fff;
@@ -3824,7 +3772,7 @@ hr.border-2 {
 }
 .main-footer .fothead h6 {
     margin-bottom: 0px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     color: #cfc401;
     font-size: 17px;
 }
@@ -4000,7 +3948,7 @@ hr.border-2 {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     color: #cfc401;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     z-index: 9999;
 }
 .loading-text.isdone {
@@ -4210,7 +4158,7 @@ hr.border-2 {
     margin: 0;
     font-size: 16px;
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     color: #cfc401;
     margin-bottom: 20px;
     letter-spacing: 5px;
@@ -4230,7 +4178,7 @@ hr.border-2 {
 }
 .butn-pricing a {
     font-weight: 300;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     text-transform: uppercase;
     background: #cfc401;
     color: #fff;
@@ -4388,7 +4336,7 @@ hr.border-2 {
     right: 20px;
 }
 .process .item h6 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     color: #fff;
     font-size: 16px;
     margin-bottom: 5px;
@@ -4457,7 +4405,7 @@ hr.border-2 {
     text-align: center;
     left: 22px;
     font-style: normal;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 1px;
@@ -4467,7 +4415,7 @@ hr.border-2 {
     transition: all .3s ease-in-out;
 }
 .process2.item h3 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 16px;
     font-weight: 300;
     color: #fff;
@@ -4564,7 +4512,7 @@ hr.border-2 {
 .comming h6 {
     color: #cfc401;
     font-size: 13px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 5px;
@@ -4574,7 +4522,7 @@ hr.border-2 {
 .comming h3 {
     font-size: 48px;
     line-height: 1.25em;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
     color: #fff;
     position: relative;
@@ -4585,7 +4533,7 @@ hr.border-2 {
 .comming h2 {
     font-size: 48px;
     line-height: 1.25em;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
     color: #fff;
     position: relative;
@@ -4642,7 +4590,7 @@ hr.border-2 {
 	color: #fff;
 	display: inline-block;
 	font-size: 13px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
 	letter-spacing: 5px;
