@@ -6,6 +6,9 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium Web:200,300,300i,400,400i,600,600i,700,700i,900');
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
+.container {
+    max-width: 1300px !important
+}
 
 /* ======= Basic style ======= */
 html,
@@ -523,7 +526,7 @@ blockquote cite:before {
 }
 .logo-wrapper {
     float: left;
-    background: #272727;
+    /* background: #272727; */
     padding: 30px 50px;
 }
 .logo-wrapper .logo h2 {
@@ -866,7 +869,7 @@ blockquote cite:before {
 
 /* ======= Slider left panel style ======= */
 .left-panel {
-    background: #272727;
+    /* background: #272727; */
     position: absolute;
     width: 143px;
     height: 100%;
@@ -885,7 +888,7 @@ blockquote cite:before {
     left: 0;
     width: 100%;
     bottom: 24px;
-    background: #272727;
+    /* background: #272727; */
     z-index: 10;
 }
 .social-left:before {
