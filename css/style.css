@@ -1,6 +1,3 @@
-
-
-
 /* ======= Google fonts (Titillium Web & Didact Gothic) ======= */
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Titillium Web:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Titillium Web:200,300,300i,400,400i,600,600i,700,700i,900');
@@ -8,6 +5,51 @@
 
 .container {
     max-width: 1300px !important
+}
+
+.fix_height {
+    max-height: 385px;
+    height: 385px;
+    overflow: hidden;
+}
+
+.fix_height_2 {
+    max-height: 560px;
+    height: 560px;
+    overflow: hidden;
+}
+
+.coloredSpan {
+    color: #cfc401;
+    font-weight: bold;
+}
+
+.count {
+    display: none;
+}
+
+.marginB-50 {
+    margin-bottom: 50px;
+}
+
+.pb-15 {
+    padding-bottom: 15px
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.logo-wrapper .logo h2 {
+    display: none !important;
+}
+
+section.testimonials .section-padding {
+    padding: 200px 0 160px 0 !important;
+}
+
+.clients {
+    display: none;
 }
 
 /* ======= Basic style ======= */
@@ -32,7 +74,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.75em;
-    color: #999;
+    color: #eeeeee;
     overflow-x: hidden !important;
     background: #272727;
 }
@@ -41,7 +83,7 @@ p {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.75em;
-    color: #999;
+    color: #eeeeee;
     margin-bottom: 20px;
 }
 h1,
@@ -4742,6 +4784,16 @@ hr.border-2 {
 
 /* ======= Responsive style ======= */
 @media screen and (max-width: 991px) {
+    .fix_height, .fix_height_2 {
+        max-height: 100%;
+        height: 100%;
+    }
+    .pb-15, .pt-15 {
+        padding: 0;
+    }
+    .marginB-50{
+        margin-bottom: 15px;
+    }
     .bg-fixed {
         background-attachment: scroll !important;
     }
