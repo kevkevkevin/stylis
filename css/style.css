@@ -1075,6 +1075,8 @@ blockquote cite:before {
     height: 100%;
     overflow: hidden;
 }
+/* 
+
 .content-lines-inner {
     position: absolute;
     width: 1140px;
@@ -1086,6 +1088,7 @@ blockquote cite:before {
     border-right: 1px solid #323232;
     border-bottom: 1px solid #323232;
 }
+
 .content-lines {
     position: absolute;
     left: 33.666666%;
@@ -1096,6 +1099,7 @@ blockquote cite:before {
 }
 
 
+*/
 
 /* =======  Video Background  ======= */
 .video-fullscreen-wrap {
